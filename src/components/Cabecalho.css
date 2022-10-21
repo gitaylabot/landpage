@@ -24,6 +24,7 @@ a{
 }
 #bttwin{
     display: flex;
+    justify-content: space-between;
 }
 a:hover{
     background: #000;
@@ -34,5 +35,7 @@ a:hover{
 
 #win{
     width: 15px;
-    margin:2px;
+    margin-right:5px;
+    padding: 2px;
+
 }
