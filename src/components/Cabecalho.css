@@ -10,12 +10,13 @@
     width: 50px;
 }
 
-a{
+#bttwin{
+    margin-left: 7px;
     border-radius: 100px;
     padding: 10px;
-    border: 0.2px solid #171A24;
-
-    background: transparent;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
 
     cursor: pointer;
 
@@ -26,10 +27,11 @@ a{
     display: flex;
     justify-content: space-between;
 }
-a:hover{
-    background: #000;
-    color: #fff;
-
+#bttwin:hover{
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: #fff;    
+}
+#bttwin::backdrop{
     transition: 0.7s;
 }
 

@@ -1,15 +1,16 @@
 import logo from "../assets/logo.svg";
 import "./Cabecalho.css";
-import windowns from "../assets/windows.svg";
+import windowns from "../assets/windows-branco.svg";
+import {Link} from 'react-router-dom'
 
 const Cabecalho = () => {
   return (
     <div id="header">
       <img id="logo" src={logo} alt="img_Logo_Ayla_Bot" />
-      <a id="bttwin">
-        <img id="win" src={windowns} alt="." />
+      <Link id="bttwin" to="/Tutorial">
+        <object type="image/svg+xml" data={windowns} id="win"></object>
         WINDOWS
-      </a>
+      </Link>
     </div>
   );
 };
