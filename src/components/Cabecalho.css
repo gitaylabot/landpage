@@ -38,3 +38,8 @@
     padding: 2px;
 
 }
+
+#imgDownload img{
+    width: 300px;
+    margin-right: 90px;
+}
