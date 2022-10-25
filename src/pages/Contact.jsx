@@ -21,7 +21,7 @@ const Contact = () => {
           </p>
         </div>
         <div id="ContatosBttn">
-          <p>Email: faleaylabot@gmail.com</p>
+          <p>Email: contato@aylabot.com</p>
           <div>
             <a href=".">Whatsapp</a>
           </div>
