@@ -3,6 +3,7 @@ import Tutorial from "../src/pages/Tutorial";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact"
 import Home from "./pages/Home";
+import Services from "./pages/Services"
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Tutorial" element={<Tutorial/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Contact" element={<Contact/>}/>
+        <Route path='/Servicos' element={<Services/>}/>
       </Routes>
     </BrowserRouter>
     </>
