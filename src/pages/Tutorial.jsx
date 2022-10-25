@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Home from "../pages/Home";
 import logo from "../assets/logo.svg";
 
-import botwpp from '../assets/bot-wapp.webp'
+import botwpp from "../assets/bot-wapp.webp";
 
 import Footer from "../components/Footer";
 
@@ -20,7 +20,6 @@ const Tutorial = () => {
         </div>
       </div>
 
-
       <div id="Download">
         <div id="text">
           <h1>
@@ -29,8 +28,8 @@ const Tutorial = () => {
           </h1>
           <p>
             Para fazer o Download do programa basta clicar no icone abaixo
-            <br />e entrar em contato com nosso suporte para liberação dos periodo
-            gratuito.
+            <br />e entrar em contato com nosso suporte para liberação dos
+            periodo gratuito.
           </p>
           <div id="bttnsDownload">
             <a href=".">Windowns</a>
@@ -39,10 +38,10 @@ const Tutorial = () => {
         </div>
 
         <div id="imgDownload">
-            <img src={botwpp}></img>
+          <img src={botwpp}></img>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
